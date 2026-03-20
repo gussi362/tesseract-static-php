@@ -18,5 +18,6 @@
         "psr-4": {
             "gussi121\\TesseractStaticOCR\\": ""
         }
-    }
+    },
+    "version": "1.0.0"
 }
