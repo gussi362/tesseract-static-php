@@ -1,0 +1,22 @@
+{
+    "name": "gussi121/tesseract-static-php",
+    "description": "static bin of tesseract ocr with english traning data",
+    "type": "library",
+    "license": "LGPL-3.0-only",
+    "authors": [
+        {
+            "name": "gussi121",
+            "email": "gussi121@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/tesseract",
+        "bin/eng.traineddata"
+    ],
+    "autoload": {
+        "psr-4": {
+            "gussi121\\TesseractStaticOCR\\": ""
+        }
+    }
+}
